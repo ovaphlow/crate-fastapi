@@ -6,9 +6,9 @@ app = FastAPI()
 
 url = URL(
     drivername="mysql+pymysql",
-    username="ovaphlow",
-    password="ovaph@QH.1123",
-    host="82.156.226.151",
+    username="root",
+    password="",
+    host="11",
     port=3306,
     database="crate",
     query={"charset": "utf8mb4"},
