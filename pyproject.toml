@@ -6,12 +6,11 @@ authors = ["ovaphlow <ovaphlow@live.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 fastapi = "^0.105.0"
 uvicorn = "^0.24.0.post1"
 sqlalchemy = "^2.0.23"
 pymysql = "^1.1.0"
-
 
 [build-system]
 requires = ["poetry-core"]
